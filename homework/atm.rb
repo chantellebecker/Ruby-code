@@ -6,13 +6,26 @@ class Account
 		
 	end
 
+	def menu
+		puts "Would you like to check your balance, withdraw or deposit?"
+		reply = gets.chomp.downcase
+			if reply == "balance"
+				display_balance
+			elsif reply == "withdraw"
+				withdraw
+			else reply == "deposit"
+				deposit
+			end
+	end
+
+
 	def display_balance	
 		puts "Please enter your pin?"
 		pin_number = gets.chomp.to_i
 			if pin_number == @pin
 				puts "Your balance is $#{@balance}."
 			else
-				puts pin_error
+				pin_error
 			end
 	end
 
@@ -25,7 +38,7 @@ class Account
 				@balance -= amount
 				puts "You withdrew #{amount}. Your new balance is $#{@balance}."
 			else
-				puts pin_error
+				pin_error
 			end
 	end
 
@@ -38,7 +51,7 @@ class Account
 				@balance += amount
 				puts "You deposited #{amount}. Your new balance is $#{@balance}."
 			else
-				puts pin_error
+				pin_error
 			end 
 	end
 
@@ -48,4 +61,4 @@ class Account
 end
 
 my_account = Account.new("Chantelle", 1000, 1234)
-my_account.display_balance
+my_account.menu

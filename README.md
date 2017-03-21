@@ -1,5 +1,5 @@
 # ruby-code
-Tech Talent South Ruby homework - methods practice. <br>
+Week 1: Tech Talent South Ruby homework - methods practice. <br>
 General terminal practice with Ruby logic & methods.
 
 ## fighter

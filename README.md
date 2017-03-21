@@ -3,7 +3,7 @@ Tech Talent South Ruby homework - methods practice. <br>
 General terminal practice with Ruby logic & methods.
 
 ## fighter
-Includes practice use of RSpec Behaviour Driven Development for Ruby.
+Includes practice use of **RSpec** Behaviour Driven Development for Ruby.
 
 ## Ruby basics practiced:
 *I/O-related methods (puts & gets)<br>

@@ -1,4 +1,6 @@
-puts 'Hello there, and what\'s your favorite number?'
-number=gets.chomp
-puts 'How about a bigger and better favorite '+ number.to_i'+ 1+'?'
+# variable assignment
+my_string = '...you can say that again...'
+puts my_string
+puts my_string
+
 

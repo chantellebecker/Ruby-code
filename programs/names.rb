@@ -1,4 +1,4 @@
-puts 12 + 12 + 12
+# chomp method
 puts 'What is your first name?'
 first_name = gets.chomp
 puts 'What is your middle name?'
